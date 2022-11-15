@@ -136,8 +136,7 @@ There are more samples in some languages (e.g. French) as the coincidence rate t
 ## Roadmap
 <h3>
 - 🗹 Base program <br>
-- ☐ Better console view <br>
-- ☐ Graphical interface ? (windowed)
+- ☐ Add more samples + of more languages
 </h3>
 
 See the [open issues](https://github.com/lcram33/frequency_analysis/issues) for a full list of proposed features (and known issues).

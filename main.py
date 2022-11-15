@@ -121,7 +121,6 @@ def main():
         md5sum += "_only_letters" if only_letters else "_full"
         if md5sum in cache:
             print("Cache found !")
-            print()
 
             n = cache[md5sum]["n"]
             chars_data = cache[md5sum]["data"]
@@ -139,6 +138,7 @@ def main():
     else:
         n, chars_data, frequencies, index_coincidence = calculate_all(file_path, only_letters)
 
+    print()
     print(f"I counted {n} chars :")
     print(chars_data)
     print()
